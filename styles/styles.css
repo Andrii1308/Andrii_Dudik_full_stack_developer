@@ -65,7 +65,7 @@ body {
     color: #000000;
 }
 
-.projects-list{
+.project-list{
     padding: 0 0 0 16px;
     margin: 0;
 }
@@ -140,6 +140,12 @@ body {
     margin: 0;
 }
 
+.ed-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .univer {
     font-family: 'Montserrat';
     font-style: normal;
@@ -208,6 +214,11 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #2979FF;   
+}
+
+.contacts-linkedin {
+    text-decoration: none;
+    color: #2979FF;
 }
 
 .skills-list{
