@@ -136,6 +136,7 @@ body {
     line-height: 20px;
     color: ;
     margin: 0;
+    color: var(--first-text-color);
 }
 
 .work-period {
