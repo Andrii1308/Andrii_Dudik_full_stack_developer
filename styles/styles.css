@@ -1,3 +1,9 @@
+:root{
+    --sidebar-bgc: #d2f5de; /* #E0EBFE */
+    --first-text-color: #20b953; /* #6D9BF5 */
+    --project-link-color: #03da4b;/* #005FFF */
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     padding: 40px;
@@ -84,11 +90,29 @@ body {
 
 .project-link {
     font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: none;
+    color: var(--first-text-color);
+}
+
+.project-git-link {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     text-decoration-line: underline;
-    color:#005FFF;
+    color: var(--project-link-color);
+}
+
+.project-descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    /* width: 525px; */
 }
 
 .work-experience-container{
@@ -110,7 +134,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #6D9BF5;
+    color: ;
     margin: 0;
 }
 
@@ -152,7 +176,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #6D9BF5;
+    color: var(--first-text-color);
     margin-bottom: 12px;
 }
 
@@ -167,7 +191,7 @@ body {
 
 .sidebar{
     width: 370px;
-    background: #E0EBFE;
+    background: var(--sidebar-bgc);
 }
 
 .my-photo{
@@ -200,7 +224,7 @@ body {
 }
 
 .contacts-icon {
-    fill: #6D9BF5;
+    fill: var(--first-text-color);
 }
 
 .contacts-type {
@@ -233,18 +257,18 @@ body {
     color: #2979FF;   
 } */
 
-.contacts-linkedin {
+/* .contacts-linkedin {
     text-decoration: none;
     color: #2979FF;
-}
+} */
 
 .skills-list{
-    padding: 0 0 0 12px;
+    padding: 0 0 0 24px;
     margin: 0;
 }
 
 .skills-list-item{
-    color: #6D9BF5;
+    color: var(--first-text-color);
 }
 
 .skills-list-text {
