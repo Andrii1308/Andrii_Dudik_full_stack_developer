@@ -175,6 +175,10 @@ body {
     gap: 24px;
 }
 
+.wa-place {
+    margin-top: 40px;
+}
+
 .univer {
     font-family: 'Montserrat';
     font-style: normal;
@@ -202,11 +206,12 @@ body {
 }
 
 .my-photo{
-    margin-top: 40px;
+    margin: 40px 70px 0 70px;
+
 }
 
 .contacts-container, .tech-skills-container, .soft-skills-container{
-    margin: 48px 0 0 40px;
+    margin: 48px 40px 0 70px;
 }
 
 .sidebar-title {
