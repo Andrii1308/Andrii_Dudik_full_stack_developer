@@ -143,9 +143,11 @@ body {
 .work-period {
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
-    color: #A8A8A8;
+    color: #777777;
+    /* color: #A8A8A8; */
+    /* color: var(--first-text-color); */
     margin: 12px 0 8px 0;
 }
 
